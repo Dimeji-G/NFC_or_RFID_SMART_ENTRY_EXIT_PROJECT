@@ -1,0 +1,39 @@
+void setup() {
+  Serial.begin(9600);
+  pinMode(5, OUTPUT);  // Red LED
+  pinMode(6, OUTPUT);  // Green LED
+  
+  Serial.println("=== SMART ENTRY-EXIT SYSTEM ===");
+  Serial.println("Enter RFID in Serial Monitor:");
+  Serial.println("Valid: 010D429BBF6A");
+  Serial.println("================================");
+}
+
+void loop() {
+  if (Serial.available()) {
+    String rfid = Serial.readString();
+    rfid.trim();
+    
+    Serial.print("\nRFID: ");
+    Serial.println(rfid);
+    
+    if (rfid == "010D429BBF6A") {
+      Serial.println("STATUS: ACCESS GRANTED");
+      Serial.println("DOOR: Opening...");
+      
+      digitalWrite(6, HIGH);  // Green ON
+      delay(3000);            // Door open time
+      digitalWrite(6, LOW);   // Green OFF
+      
+    } else {
+      Serial.println("STATUS: ACCESS DENIED");
+      
+      digitalWrite(5, HIGH);  // Red ON
+      delay(2000);
+      digitalWrite(5, LOW);   // Red OFF
+    }
+    
+    Serial.println("Ready for next scan...");
+  }
+  delay(100);
+}
