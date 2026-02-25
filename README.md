@@ -410,17 +410,17 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 ## Acknowledgments
+# Course Information
+- **Course**: ICT 215 - Robotics and Embedded Systems.
+- **Institution**: Bells University of Technology.
+- **Instructor**: Lecturer Ayuba Mohammed.
 
-### Course Information
-- **Course**: ICT 215 - Robotics and Embedded Systems
-- **Institution**: [Your University Name]
-- **Instructor**: [Instructor Name]
-
-### Team Members
-- [Your Name] - Team Lead
-- [Member 2 Name]
-- [Member 3 Name]
-- [Member 4 Name]
+### Group Members
+- Adewoye Rachel Kikelomo 2024/13384- Group Leader
+- Adebimpe Elisha Eriogo 2024/13659
+- Adebiyi Azeem Adebayo 2024/13791
+- Abbah Martins Oche 2024/13324
+- Abdulhammed Sufyan Ademola 2024/13228
 
 ### Tools Used
 - **Proteus Design Suite** - Circuit simulation
@@ -429,26 +429,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Arduino IDE** - Code development
 - **Flask** - Web framework
 - **Visual Studio Code** - Code editor
-
-### References
-1. Sharma et al. (2022) - RFID-based access control systems
-2. Chen (2021) - Arduino-based security systems
-3. Wang & Li (2023) - Entry-exit tracking algorithms
-4. Johnson (2020) - Proteus simulation techniques
-5. Kim (2022) - Power regulation circuits
-
----
-
-## Contact
-
-**Dimroid Technologies Ltd**
-
-- **Email**: contact@dimroid.tech
-- **GitHub**: [@Dimeji-G](https://github.com/Dimeji-G)
-- **LinkedIn**: [Dimeji G](https://www.linkedin.com/in/dimeji-g)
-- **Twitter**: [@dimeji_g](https://x.com/dimeji_g)
-
----
 
 ## Project Status
 
@@ -481,11 +461,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Tinkercad Learn](https://www.tinkercad.com/learn)
 - [RFID RC522 Datasheet](https://www.nxp.com/docs/en/data-sheet/MF1S50YYX_V1.pdf)
 - [Particles.js](https://particles.js.org/)
-
----
-
-**Made by Dimroid Technologies Ltd**
-
-*Empowering businesses through intelligent automation*
-
-*Last Updated: January 2026*
